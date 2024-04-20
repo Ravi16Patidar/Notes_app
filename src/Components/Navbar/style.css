@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbarContainer{
+    display: flex;
+    height:70px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0f1924c3;
+    padding:0 30px;
+}
+.notesLogo{
+    width:50px;
+    height:40px;
+}

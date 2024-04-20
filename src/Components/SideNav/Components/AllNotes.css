@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+.HomeContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.NotesContainer{
+    width:420px;
+    height:420px;
+    border-radius:10px;
+    box-shadow: -5px -4px 14px -1px rgba(0,0,0,0.75) ;
+    background-color: #85C1E9;
+    margin:10px 10px;
+    padding:20px;
+    text-align: justify;
+    overflow-y:  scroll;
+}
+/* .iconBtnContainer{
+    margin:70% 10px 0 65%;
+} */
+.iconBtn{
+    position:relative;
+    top:50px;
+    z-index:3;
+
+}
