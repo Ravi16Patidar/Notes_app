@@ -16,7 +16,7 @@ function Home() {
   };
   return (
     <div className="HomeContainer">
-      {notesItem.map((item,index) => {
+      {notesItem && notesItem.map((item,index) => {
         return <div key={index} className="NotesContainer">
            <h1>{item.title}</h1>
            <p>{item.description}</p>
